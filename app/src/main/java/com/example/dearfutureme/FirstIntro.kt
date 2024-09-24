@@ -27,7 +27,7 @@ class FirstIntro : BaseActivity() {
                 Color.parseColor("#C868FF")
             ), null, Shader.TileMode.CLAMP
         )
-//sdfsdfsdfsdf
+
         binding.main.setOnClickListener{
             startActivity(Intent(this@FirstIntro, SecondIntro::class.java))
         }
